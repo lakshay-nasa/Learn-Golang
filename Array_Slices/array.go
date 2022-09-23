@@ -12,5 +12,8 @@ func main() {
 	fmt.Println(customerNames)
 	fmt.Println(idNo)
 
+	customerNames[5] = "Yun"
+	fmt.Println(customerNames)
+
 	fmt.Printf("The customer named %v belongs to id no %v.", customerNames[0], idNo[0])
 }
